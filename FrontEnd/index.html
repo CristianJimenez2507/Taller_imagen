@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Clasificación de Imágenes</h2>
+            
+            <label for="fileInput" class="custom-file-upload">
+                <input type="file" id="fileInput" accept="image/*">
+                📷 Subir Imagen
+            </label>
+
+            <button class="button" id="classifyButton">🚀 Clasificar Imagen</button>
+
+            <div class="image-preview">
+                <h3>Imagen subida:</h3>
+                <img id="previewImage" src="" alt="Imagen subida">
+            </div>
+
+            <div class="results">
+                <h3>Resultados:</h3>
+                <div id="result" class="result-box"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
